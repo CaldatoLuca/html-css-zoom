@@ -56,8 +56,10 @@ body {
 .button {
   color: white;
   background-color: #4a4a4a;
-  padding: 8px 8px;
   border-radius: 10px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
 }
 .flex {
   display: flex;
@@ -72,9 +74,10 @@ body {
 /* #endregion HEADER*/
 header {
   display: flex;
-  padding: 5px 5px 50px 5px;
   gap: 8px;
   justify-content: flex-end;
+  height: 80px;
+  padding: 5px;
 }
 /* #region MAIN*/
 /*
