@@ -18,7 +18,9 @@
 ---------
 */
 /* #endregion DEBUG*/
-
+.debug header {
+  background-color: salmon;
+}
 /* #region TYPOGRAPHY*/
 /*
 ------------
@@ -34,7 +36,9 @@
 ----------
 */
 /* #endregion PALETTE*/
-
+body {
+  background-color: black;
+}
 /* #region COMMON*/
 /*
 ---------
@@ -42,6 +46,12 @@
 ---------
 */
 /* #endregion COMMON*/
+.button {
+  color: white;
+  background-color: #4a4a4a;
+  padding: 8px 8px;
+  border-radius: 10px;
+}
 
 /* #region HEADER*/
 /*
@@ -50,7 +60,12 @@
 ---------
 */
 /* #endregion HEADER*/
-
+header {
+  display: flex;
+  padding: 5px 5px 50px 5px;
+  gap: 8px;
+  justify-content: flex-end;
+}
 /* #region MAIN*/
 /*
 -------
