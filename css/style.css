@@ -1,0 +1,68 @@
+/* #region RESET */
+/* 
+---------
+!RESET
+---------
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* #endregion RESET*/
+
+/* #region DEBUG */
+/* 
+---------
+!DEBUG
+---------
+*/
+/* #endregion DEBUG*/
+
+/* #region TYPOGRAPHY*/
+/*
+------------
+!TYPOGRAPHY
+------------
+*/
+/* #endregion TYPOGRAPHY*/
+
+/* #region PALETTE*/
+/*
+----------
+!PALETTE
+----------
+*/
+/* #endregion PALETTE*/
+
+/* #region COMMON*/
+/*
+---------
+!COMMON
+---------
+*/
+/* #endregion COMMON*/
+
+/* #region HEADER*/
+/*
+---------
+!HEADER
+---------
+*/
+/* #endregion HEADER*/
+
+/* #region MAIN*/
+/*
+-------
+!MAIN
+-------
+*/
+/* #endregion MAIN*/
+
+/* #region FOOTER*/
+/*
+---------
+!FOOTER 
+---------
+*/
+/* #endregion FOOTER*/
