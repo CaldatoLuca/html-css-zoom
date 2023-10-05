@@ -1,5 +1,5 @@
 /* #region RESET */
-/* 
+/*
 ---------
 !RESET
 ---------
@@ -12,7 +12,7 @@
 /* #endregion RESET*/
 
 /* #region DEBUG */
-/* 
+/*
 ---------
 !DEBUG
 ---------
@@ -27,6 +27,9 @@
 .debug .output,
 .debug .exit {
   background-color: blueviolet;
+}
+.debug main {
+  background-color: antiquewhite;
 }
 /* #region TYPOGRAPHY*/
 /*
@@ -53,6 +56,11 @@ body {
 ---------
 */
 /* #endregion COMMON*/
+.container {
+  max-width: 90vw;
+  margin: 0 auto;
+  background-color: aquamarine;
+}
 .button {
   color: white;
   background-color: #4a4a4a;
@@ -86,11 +94,32 @@ header {
 -------
 */
 /* #endregion MAIN*/
-
+main {
+  height: calc(100vh - 160px);
+  overflow-y: scroll;
+}
+.students {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.student {
+  position: relative;
+  margin-bottom: 10px;
+}
+.student img {
+  display: block;
+}
+.student .name {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(113, 126, 139, 0.5);
+  padding: 2.5px;
+}
 /* #region FOOTER*/
 /*
 ---------
-!FOOTER 
+!FOOTER
 ---------
 */
 /* #endregion FOOTER*/
