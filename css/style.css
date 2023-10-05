@@ -59,6 +59,9 @@ body {
   padding: 8px 8px;
   border-radius: 10px;
 }
+.flex {
+  display: flex;
+}
 
 /* #region HEADER*/
 /*
@@ -89,20 +92,20 @@ header {
 */
 /* #endregion FOOTER*/
 footer {
-  padding: 15px 10px;
-  display: flex;
+  height: 80px;
   justify-content: space-between;
+  align-items: center;
+  color: white;
 }
 footer i {
   font-size: 1.875rem;
+  margin-bottom: 10px;
 }
-.output,
-.exit {
+footer .output,
+footer .exit {
   width: 20%;
-  display: flex;
 }
-.options {
-  display: flex;
+footer .options {
   justify-content: center;
   width: 60%;
 }
@@ -115,8 +118,12 @@ footer i {
   text-align: center;
   margin-right: 20px;
 }
-.arrow {
+.fa-solid.fa-share-from-square {
+  color: #4bc800;
+}
+.icon .arrow {
   position: relative;
+  margin-right: 20px;
 }
 .arrow i {
   font-size: 0.625rem;
@@ -124,4 +131,17 @@ footer i {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+/* ?parte destra */
+.exit {
+  height: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+.exit div {
+  height: 100%;
+  line-height: 80px;
+  background-color: #4a4a4a;
+  padding: 0 10px;
+  color: red;
 }
