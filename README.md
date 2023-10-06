@@ -10,3 +10,5 @@ Creazione della web app di zoom con vw e vh e centratura tramite position absolu
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+- griglia con padding
+- scrollbar
