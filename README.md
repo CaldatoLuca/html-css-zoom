@@ -1,14 +1,32 @@
-# Zoom
+# Replica del Sito Web di Zoom
 
-_HTML+css_
+Questo progetto è una replica di una pagina web che potrebbe essere utilizzata per una piattaforma di videoconferenza simile a Zoom.
 
-Creazione della web app di zoom con vw e vh e centratura tramite position absolute+transform:translate
+## Descrizione
 
-- vh
-- vw
--   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-- griglia con padding
-- scrollbar
+Questo mockup di pagina web è stato creato per praticare le competenze nello sviluppo web, ricreando un'interfaccia utente intuitiva e moderna per una piattaforma di videoconferenza.
+
+## Caratteristiche
+
+- Design moderno e intuitivo.
+- Utilizzo di icone fornite dalla libreria Font Awesome per migliorare l'usabilità.
+- Layout responsivo per adattarsi a diverse dimensioni dello schermo.
+- Utilizzo di Google Fonts per una migliore leggibilità del testo.
+- Bottoni chiari e intuitivi con icone che indicano la loro funzione.
+- Compatibilità con i principali browser per garantire un'esperienza utente coerente.
+
+## Tecnologie Utilizzate
+
+- HTML
+- CSS
+- Google Fonts
+- Font Awesome
+
+## Installazione e Utilizzo
+
+Per visualizzare questo progetto in locale, segui questi passaggi:
+
+1. Clona questo repository sul tuo computer locale.
+2. Apri il file `index.html` nel tuo browser web.
+
+In alternativa, puoi visualizzare la demo live [qui](https://caldatoluca.github.io./zoom/).
