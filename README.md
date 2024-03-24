@@ -10,10 +10,8 @@ Questo mockup di pagina web è stato creato per praticare le competenze nello sv
 
 - Design moderno e intuitivo.
 - Utilizzo di icone fornite dalla libreria Font Awesome per migliorare l'usabilità.
-- Layout responsivo per adattarsi a diverse dimensioni dello schermo.
 - Utilizzo di Google Fonts per una migliore leggibilità del testo.
 - Bottoni chiari e intuitivi con icone che indicano la loro funzione.
-- Compatibilità con i principali browser per garantire un'esperienza utente coerente.
 
 ## Tecnologie Utilizzate
 
